@@ -1,0 +1,120 @@
+* {
+  margin: 0%;
+}
+
+.header {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 15px 25px 15px 25px;
+  background-color: #5b6f80;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.list {
+  font-size: 20px;
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.list a {
+  color: white;
+  text-decoration: none;
+}
+
+.list a:hover {
+  color: #ffffec;
+  font-weight: bolder;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.saya  {
+    width: 700px;
+    height: 600px;
+}
+  
+.tentang-saya {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+section {
+    padding: 50px; 
+    margin-bottom: 60px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.portofolio {
+    text-align: center;
+}
+  
+.portofolio div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+  
+.portofolio img {
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background-color: #5b6f80;
+  color: #ffffec;
+}
+
+.footer > div {
+  padding: 14px 32px 14px 32px;
+}
+
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sosial-media {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sosial-media > a {
+  margin-right: 8px;
+}
+
+.sosial-media img {
+  width: 24px;
+  height: 24px;
+}
+
+.bottom-footer {
+  background-color: #5b6f80;
+  border-top: solid 1px white;
+}
+
+.bottom-footer h6 {
+  text-align: center;
+}
+/* Sifa Sahira 
+F55123059 */
